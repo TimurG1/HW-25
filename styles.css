@@ -1,0 +1,27 @@
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    width: 690px;
+    column-gap: 30px;
+}
+.box{
+    height: 200px;
+    width: 200px;
+}
+
+.box:nth-child(1){
+    background-color: red;
+}
+.box:nth-child(2){
+    position: absolute;
+    top: 130px;
+    left: 520px;
+
+    background-color: blue;
+
+}
+.box:nth-child(3){
+    margin-top: 240px;
+    background-color: green;
+}
