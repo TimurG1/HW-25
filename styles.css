@@ -4,6 +4,7 @@
     display: flex;
     width: 690px;
     column-gap: 30px;
+    position: relative;
 }
 .box{
     height: 200px;
@@ -15,13 +16,15 @@
 }
 .box:nth-child(2){
     position: absolute;
-    top: 130px;
-    left: 620px;
+    top: 88px;
+    left: 120px;
 
     background-color: blue;
 
 }
 .box:nth-child(3){
-    margin-top: 240px;
     background-color: green;
+    position: absolute;
+    top: 200px;
+    left: 240px;
 }
